@@ -6,7 +6,7 @@
 
 body{
     background-color: inherit;
-    background-image: url(image/240_F_666236653_IRgApLeaDCXsIwepS38dY2CjF6KrkU8K.jpg);
+    background-image: url("image/240_F_666236653_IRgApLeaDCXsIwepS38dY2CjF6KrkU8K.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
