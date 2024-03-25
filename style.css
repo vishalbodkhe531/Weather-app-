@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: inherit;
+    background-image: url(/image/240_F_666236653_IRgApLeaDCXsIwepS38dY2CjF6KrkU8K.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+    /* color: #fff; */
+}
+
+.col-6{
+    max-width: 25rem;
+}
+#row-1{
+    color: #fff;
+    opacity: 2;
+    text-align: center;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(172, 207, 207, 0.646);
+    height: 15rem;
+    width: 20rem;
+    padding: 1% 2%;
+    border-radius: 20px;
+    margin: 20% 0px 0px 12px;
+    animation: floatImage 4s ease-in-out infinite;
+    /* transform: translateY(20px); */
+    border: 1px solid rgb(255, 238, 238);
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+}
+
+/* .search-container:active{
+    scale: (180);
+} */
+hr{
+    background-color: #ffffff;
+    /* color: #fff; */
+    opacity: 10;
+    height: 2px;
+}
+
+h4,#search-btn,#current-location{
+    margin: 3%;
+    padding: 0.20%;
+    outline: none;
+    color: #ffffff;
+}
+
+#city-inner-name{
+    margin: 10px;
+}
+form input{
+    margin: 3%;
+    padding-left: 3.20%;
+    outline: none;
+    width: 94%;
+}
+
+#about-city{
+    /* background-color: aqua; */
+    background-color: rgba(224, 244, 244, 0.542);
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-width: 20rem;
+    margin: 13% 2% 0px 0px;
+}
+
+#about-city div{
+    margin: 1rem;
+}
+
+#Day-Forcast{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 20rem;
+    margin: 18px;
+    width: 15rem;
+}
+
+#search-btn,#current-location{
+    background-color: rgb(255, 157, 0);
+    font-weight: 530;
+    width: 94%;
+    color: #000000;
+    border: 2px solid #ffffff;
+}
+
+#current-location{
+    background-color: rgb(8, 255, 210);
+}
+
+.AboutCityIcon img{
+    position: relative;
+    bottom: 200%;
+    left: 70%;
+    height: 5rem;
+    background-color: #000;
+    border-radius: 50%;
+    border: 4px dotted white;
+    
+}
