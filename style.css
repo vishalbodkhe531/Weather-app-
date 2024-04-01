@@ -11,8 +11,6 @@ body{
     background-size: cover;
     height: 100vh;
     background-position: center;
-
-    /* color: #fff; */
 }
 
 .col-6{
@@ -34,7 +32,6 @@ body{
     border-radius: 20px;
     margin: 20% 0px 0px 12px;
     animation: floatImage 4s ease-in-out infinite;
-    /* transform: translateY(20px); */
     border: 1px solid rgb(255, 238, 238);
 }
 
@@ -51,9 +48,6 @@ body{
 
 }
 
-/* .search-container:active{
-    scale: (180);
-} */
 hr{
     background-color: #ffffff;
     /* color: #fff; */
@@ -79,7 +73,6 @@ form input{
 }
 
 #about-city{
-    /* background-color: aqua; */
     background-color: rgba(224, 244, 244, 0.542);
     height: 17rem;
     display: flex;
@@ -124,5 +117,4 @@ form input{
     background-color: #000;
     border-radius: 50%;
     border: 4px dotted white;
-    
 }
